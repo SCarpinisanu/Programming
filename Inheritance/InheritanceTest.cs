@@ -1,4 +1,4 @@
-﻿using Prog.Inheritance;
+﻿using Programming.Inheritance;
 using System;
 using System.Collections.Generic;
 using System.Linq;
