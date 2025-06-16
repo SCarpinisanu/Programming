@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prog.Inheritance
+namespace Programming.Inheritance
 {
     public class Employee : Person //Employee is the derived class
     {
@@ -14,9 +14,9 @@ namespace Prog.Inheritance
         public Employee(string name, int age, string gender, string company, string position, double salary)
             : base(name, age, gender) //Calling the base class constructor
         {
-            this.Company = company;
-            this.Position = position;
-            this.Salary = salary;
+            Company = company;
+            Position = position;
+            Salary = salary;
         }
         public void InfoEmployee()
         {

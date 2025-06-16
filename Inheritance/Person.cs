@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prog.Inheritance
+namespace Programming.Inheritance
 {
     public class Person //Person is the base class
     {
@@ -13,9 +13,9 @@ namespace Prog.Inheritance
         public string Gender;
         public Person(string name, int age, string gender)
         {
-            this.Name = name;
-            this.Age = age;
-            this.Gender = gender;
+            Name = name;
+            Age = age;
+            Gender = gender;
         }
         public void InfoPerson()
         {

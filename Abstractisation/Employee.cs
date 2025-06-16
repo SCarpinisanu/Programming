@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prog.Abstractisation
+namespace Programming.Abstractisation
 {
     public class Employee : Person, IEmployee
     {

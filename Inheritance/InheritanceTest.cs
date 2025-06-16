@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Prog.Inheritance;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prog.Inheritance
+namespace Programming.Inheritance
 {
     public class InheritanceTest
     {

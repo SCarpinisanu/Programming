@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prog.Encapsulation
+namespace Programming.Encapsulation
 {
     public class Wallet
     {
@@ -15,7 +15,7 @@ namespace Prog.Encapsulation
             {
                 throw new ArgumentException("Initial balance cannot be negative.");
             }
-            this.balance = initialBalance;
+            balance = initialBalance;
         }
         public void AddMoney(int amount)
         {
@@ -23,7 +23,7 @@ namespace Prog.Encapsulation
             {
                 throw new ArgumentException("Amount to add cannot be negative.");
             }
-            this.balance += amount;
+            balance += amount;
         }
         public void RemoveMoney(int amount)
         {
@@ -35,7 +35,7 @@ namespace Prog.Encapsulation
             {
                 throw new InvalidOperationException("Insufficient funds.");
             }
-            this.balance -= amount;
+            balance -= amount;
         }
         //public int Balance
         //{

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prog.Polymorphism
+namespace Programming.Polymorphism
 {
     public class Student : Person
     {
