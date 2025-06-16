@@ -9,7 +9,7 @@ namespace Prog.Abstractisation
     public class OOPTest
     {
         [Test]
-        public void Test()
+        public void TestOOP()
         {
             Employee employee = new Employee("Marius", "Popescu", 38, "IBM", 15620.0);
             employee.GoToWork();

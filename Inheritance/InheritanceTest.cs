@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Prog.Inheritance
 {
-    public class TestMethod
+    public class InheritanceTest
     {
         //Inheritance is the concept that a class can inherit properties and methods from another class.
         //In C# only one class can be inherited, but a class can implement multiple interfaces.
